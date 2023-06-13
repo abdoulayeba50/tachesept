@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+*{ padding: 0;
+     margin: 0; 
+     box-sizing: border-box;}
+
+
+body{
+    height: 1610px;
+    padding: 0;
+    margin: 0;
+    background-image: linear-gradient(rgba(34, 24, 24, 0.6), rgba(34, 24, 24, 0.6)), url("images/fond.jpg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#header .text1{ 
+    color: red;
+     font-size: 30px; 
+     font-weight: 700; 
+     margin-top: 65px;
+    }
+
+#header .text2{
+    color: white;
+     font-size: 76px; 
+     font-weight: 200;
+    }
+
+#header nav{
+ background: rgb(78, 5, 5); 
+ padding: 25px;
+}
+
+#header nav a{ 
+    color: white;
+     font-size: 18px; 
+     font-weight: 700;
+    }
+
+#header nav a.active{ 
+    border: 1px solid #fff;
+}
+
+#header .fa-bars{ 
+      color: #fff;
+      font-size: 20px ;
+      font-weight: bold;
+    }
+
+
+/* fist section */
+#fistsec .container{
+    margin-top: 150px;
+}
+ .maron{
+    width: 535px;
+    height: 370px;
+    background: #F6E1C5;
+    border-radius: 5px;
+    position: relative;
+    left: 50px;
+}
+
+.maron button{
+    color: #fff;
+    width: 194px;
+    height: 65px;
+    background: #7B261A;
+    border-radius: 5px;
+    border: none;
+}
+.maron p{
+    width: 390px;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.accueil img{
+    height: 500px;
+}
+.rite h4{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+
+
+
+/* Section Two */
+
+#sectiontwo{
+      width: 100%;
+      background: rgba(165, 52, 43, 0.69);
+      height: 500px;
+      position: relative;
+      top: 90px;
+    }
+    #sectiontwo .container{
+        position: relative;
+        top: 90px;
+    }
+#sectiontwo .box{
+     height: 300px; 
+     width: 800px;
+     border-radius: 5px;
+     background: #F6E1C5;
+     margin: 10px;
+     padding-left: 40px;
+     padding-right: 40px;
+    }
+
+#sectiontwo .bordure{
+       border: 1px solid #F6E1C5;
+       border-radius: 5px;
+       margin-top: 82px;
+       margin-bottom: 102px;
+       max-width: max-content;
+       margin: auto;
+    }
+
+#sectiontwo .box h2{ 
+    font-size: 15px;
+    font-weight: 700;
+    padding-top: 55px;
+    }
+
+#ssectiontwo .box h3{
+     font-size: 12px;
+  
+    }
+
+#sectiontwo .box p{ 
+    font-size: 16px; 
+    font-weight: 400;
+}
+
+/* footerrr section */
+#footer{ 
+    background: #311919; 
+    padding: 50px;
+    margin-top: 160px;
+}
+#footer p{ 
+    color: white; 
+    font-size: 18px; 
+    font-weight: 400;
+}
+
+
+
+/* Responsive */
+
+@media screen and (max-width:768px){
+    body{
+        overflow-x: hidden;
+    } 
+   .maron{
+        position: relative;
+        left: 1px;
+        width: 400px;
+        height: 300px;
+    }
+    .maron p{
+        position: relative;
+        left: -10px;
+        top: 5px;
+        font-size: 14px;
+    }
+    .accueil img{
+        margin-top: 10px;
+        height: 350px;
+    }
+
+   #sectiontwo .box{
+    height: 300px; 
+    width: 300px; 
+   }
+   #sectiontwo .box p{ 
+    font-size: 14px; 
+    font-weight: 400;
+}
+}
+
